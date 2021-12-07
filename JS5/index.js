@@ -83,6 +83,11 @@ function getCountElement(arr) {
     for (const num of arr) {
         counts[num] = counts[num] ? counts[num] + 1 : 1;
     }
-    return
+    
+    return counts
 }
 console.log(getCountElement(["one", "two", "three", "one", "one", "three"]))
+
+
+var a = Math.floor(Math.random() * 100)
+console.log(a)
