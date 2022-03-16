@@ -156,7 +156,7 @@ function changeTotalProduct(id, event) {
 
     products.forEach(product => {
         if(product.id === id) {
-            product.total = newQuantity
+            product.total = newQuantity  
         }
     })
 
